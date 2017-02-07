@@ -10,6 +10,8 @@
 		846A9B521E49BABD00F6BDF9 /* AttitudeEstimator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 846A9B481E49BABD00F6BDF9 /* AttitudeEstimator.framework */; };
 		846A9B571E49BABD00F6BDF9 /* AttitudeEstimatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A9B561E49BABD00F6BDF9 /* AttitudeEstimatorTests.swift */; };
 		846A9B591E49BABD00F6BDF9 /* AttitudeEstimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 846A9B4B1E49BABD00F6BDF9 /* AttitudeEstimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		846A9B9C1E49BF6200F6BDF9 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 846A9B9A1E49BF6200F6BDF9 /* Nimble.framework */; };
+		846A9B9D1E49BF6200F6BDF9 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 846A9B9B1E49BF6200F6BDF9 /* Quick.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		846A9B511E49BABD00F6BDF9 /* AttitudeEstimatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AttitudeEstimatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		846A9B561E49BABD00F6BDF9 /* AttitudeEstimatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttitudeEstimatorTests.swift; sourceTree = "<group>"; };
 		846A9B581E49BABD00F6BDF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846A9B9A1E49BF6200F6BDF9 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = "../../Vendor/Nimble/build/Debug-iphoneos/Nimble.framework"; sourceTree = "<group>"; };
+		846A9B9B1E49BF6200F6BDF9 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/VRPlayer-fmktrwygturyakcevwdiaybxlrps/Build/Products/Debug-iphonesimulator/Quick.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				846A9B9C1E49BF6200F6BDF9 /* Nimble.framework in Frameworks */,
+				846A9B9D1E49BF6200F6BDF9 /* Quick.framework in Frameworks */,
 				846A9B521E49BABD00F6BDF9 /* AttitudeEstimator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -56,6 +62,7 @@
 				846A9B4A1E49BABD00F6BDF9 /* AttitudeEstimator */,
 				846A9B551E49BABD00F6BDF9 /* AttitudeEstimatorTests */,
 				846A9B491E49BABD00F6BDF9 /* Products */,
+				846A9B991E49BF6200F6BDF9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,6 +91,15 @@
 				846A9B581E49BABD00F6BDF9 /* Info.plist */,
 			);
 			path = AttitudeEstimatorTests;
+			sourceTree = "<group>";
+		};
+		846A9B991E49BF6200F6BDF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				846A9B9A1E49BF6200F6BDF9 /* Nimble.framework */,
+				846A9B9B1E49BF6200F6BDF9 /* Quick.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -400,6 +416,7 @@
 				846A9B5E1E49BABD00F6BDF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		846A9B5F1E49BABD00F6BDF9 /* Build configuration list for PBXNativeTarget "AttitudeEstimatorTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +425,7 @@
 				846A9B611E49BABD00F6BDF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
