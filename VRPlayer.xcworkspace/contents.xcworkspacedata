@@ -5,6 +5,9 @@
       location = "group:lib/AttitudeEstimator/AttitudeEstimator.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:Vendor/Surge/Surge.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Vendor/Nimble/Nimble.xcodeproj">
    </FileRef>
    <FileRef

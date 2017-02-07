@@ -11,6 +11,7 @@
 		846A9B591E49BABD00F6BDF9 /* AttitudeEstimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 846A9B4B1E49BABD00F6BDF9 /* AttitudeEstimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		846A9B9C1E49BF6200F6BDF9 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 846A9B9A1E49BF6200F6BDF9 /* Nimble.framework */; };
 		846A9B9D1E49BF6200F6BDF9 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 846A9B9B1E49BF6200F6BDF9 /* Quick.framework */; };
+		84B6B5711E49D89E00397D98 /* Surge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B6B5701E49D89E00397D98 /* Surge.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,7 @@
 		846A9B581E49BABD00F6BDF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		846A9B9A1E49BF6200F6BDF9 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = "../../Vendor/Nimble/build/Debug-iphoneos/Nimble.framework"; sourceTree = "<group>"; };
 		846A9B9B1E49BF6200F6BDF9 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/VRPlayer-fmktrwygturyakcevwdiaybxlrps/Build/Products/Debug-iphonesimulator/Quick.framework"; sourceTree = "<group>"; };
+		84B6B5701E49D89E00397D98 /* Surge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Surge.framework; path = "../../Vendor/Surge/build/Debug-iphoneos/Surge.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B6B5711E49D89E00397D98 /* Surge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +96,7 @@
 		846A9B991E49BF6200F6BDF9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				84B6B5701E49D89E00397D98 /* Surge.framework */,
 				846A9B9A1E49BF6200F6BDF9 /* Nimble.framework */,
 				846A9B9B1E49BF6200F6BDF9 /* Quick.framework */,
 			);
